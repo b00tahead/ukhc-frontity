@@ -1,0 +1,130 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "75d9408c9f53aa054275",
+  "publicPath": "/static/",
+  "outputPath": "/Users/b00tahead/Code/b00tahead/ukhc-frontity/build/static",
+  "assetsByChunkName": {
+    "list": "list.module.js",
+    "ukhc-frontity": "ukhc-frontity.module.js"
+  },
+  "assets": [
+    {
+      "name": "list.module.js",
+      "size": 47053,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "ukhc-frontity.module.js",
+      "size": 6432145,
+      "chunks": [
+        "ukhc-frontity"
+      ],
+      "chunkNames": [
+        "ukhc-frontity"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "ukhc-frontity": {
+      "chunks": [
+        "ukhc-frontity"
+      ],
+      "assets": [
+        "ukhc-frontity.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "ukhc-frontity": {
+      "chunks": [
+        "ukhc-frontity"
+      ],
+      "assets": [
+        "ukhc-frontity.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "list",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 29876,
+      "names": [
+        "list"
+      ],
+      "files": [
+        "list.module.js"
+      ],
+      "hash": "08e908c1c615e1e1baa7",
+      "siblings": [],
+      "parents": [
+        "ukhc-frontity"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "ukhc-frontity",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1659337,
+      "names": [
+        "ukhc-frontity"
+      ],
+      "files": [
+        "ukhc-frontity.module.js"
+      ],
+      "hash": "5e837d062e5e40ed4a05",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
