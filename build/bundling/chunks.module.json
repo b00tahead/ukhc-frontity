@@ -2,29 +2,45 @@
   "errors": [],
   "warnings": [],
   "version": "4.46.0",
-  "hash": "75d9408c9f53aa054275",
+  "hash": "007abe68a4b4eec69763",
   "publicPath": "/static/",
   "outputPath": "/Users/b00tahead/Code/b00tahead/ukhc-frontity/build/static",
   "assetsByChunkName": {
-    "list": "list.module.js",
-    "ukhc-frontity": "ukhc-frontity.module.js"
+    "ukhc-frontity": [
+      "ukhc-frontity.module.js",
+      "ukhc-frontity.cb859b2d0cc16d0cbe57.hot-update.js"
+    ]
   },
   "assets": [
     {
-      "name": "list.module.js",
-      "size": 47053,
+      "name": "cb859b2d0cc16d0cbe57.hot-update.json",
+      "size": 55,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "ukhc-frontity.cb859b2d0cc16d0cbe57.hot-update.js",
+      "size": 2057,
       "chunks": [
-        "list"
+        "ukhc-frontity"
       ],
       "chunkNames": [
-        "list"
+        "ukhc-frontity"
       ],
-      "info": {},
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
       "emitted": false
     },
     {
       "name": "ukhc-frontity.module.js",
-      "size": 6432145,
+      "size": 6096122,
       "chunks": [
         "ukhc-frontity"
       ],
@@ -42,7 +58,8 @@
         "ukhc-frontity"
       ],
       "assets": [
-        "ukhc-frontity.module.js"
+        "ukhc-frontity.module.js",
+        "ukhc-frontity.cb859b2d0cc16d0cbe57.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -54,17 +71,8 @@
         "ukhc-frontity"
       ],
       "assets": [
-        "ukhc-frontity.module.js"
-      ],
-      "children": {},
-      "childAssets": {}
-    },
-    "list": {
-      "chunks": [
-        "list"
-      ],
-      "assets": [
-        "list.module.js"
+        "ukhc-frontity.module.js",
+        "ukhc-frontity.cb859b2d0cc16d0cbe57.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -72,46 +80,22 @@
   },
   "chunks": [
     {
-      "id": "list",
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "size": 29876,
-      "names": [
-        "list"
-      ],
-      "files": [
-        "list.module.js"
-      ],
-      "hash": "08e908c1c615e1e1baa7",
-      "siblings": [],
-      "parents": [
-        "ukhc-frontity"
-      ],
-      "children": [],
-      "childrenByOrder": {},
-      "modules": [],
-      "filteredModules": 0,
-      "origins": []
-    },
-    {
       "id": "ukhc-frontity",
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1659337,
+      "size": 1498837,
       "names": [
         "ukhc-frontity"
       ],
       "files": [
-        "ukhc-frontity.module.js"
+        "ukhc-frontity.module.js",
+        "ukhc-frontity.cb859b2d0cc16d0cbe57.hot-update.js"
       ],
-      "hash": "5e837d062e5e40ed4a05",
+      "hash": "bfe3c7010fed226e9efa",
       "siblings": [],
       "parents": [],
-      "children": [
-        "list"
-      ],
+      "children": [],
       "childrenByOrder": {},
       "modules": [],
       "filteredModules": 0,
@@ -121,7 +105,7 @@
   "logging": {
     "webpack.buildChunkGraph.visitModules": {
       "entries": [],
-      "filteredEntries": 5,
+      "filteredEntries": 2,
       "debug": false
     }
   },

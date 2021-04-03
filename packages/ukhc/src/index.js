@@ -1,21 +1,14 @@
-const Root = () => {
-  return (
-    <>
-      You can edit your package in:
-      <pre>packages/ukhc/src/index.js</pre>
-    </>
-  );
-};
+import Root from "./components";
 
 export default {
   name: "ukhc",
   roots: {
-    UKHC Theme: Root
+    ukhc: Root,
   },
   state: {
-    UKHC Theme: {}
+    ukhc: {},
   },
   actions: {
-    UKHC Theme: {}
-  }
+    ukhc: {},
+  },
 };
