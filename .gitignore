@@ -7,5 +7,7 @@ logs
 node_modules
 bower_components
 
+.vscode
+
 frontity.settings.js
 build
